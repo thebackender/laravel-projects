@@ -40,5 +40,8 @@
         float: left;
         width: 15%;
     }
+    .detail-img{
+        height: 200px;
+    }
 </style>
 </html>
