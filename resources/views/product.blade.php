@@ -5,7 +5,7 @@
     <!-- Indicators -->
     <ol class="carousel-indicators">
         @foreach($products as $item)
-        <li data-target="#myCarousel" data-slide-to="{{$item['id']}}" class="{{$item['id']==1?'active':''}}"></li>
+        <li data-target="#myCarousel" data-slide-to="{{$item['id']-1}}" class="{{$item['id']==1?'active':''}}"></li>
         @endforeach
     </ol>
 
